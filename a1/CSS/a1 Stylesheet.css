@@ -1,0 +1,168 @@
+@charset "utf-8";
+/* CSS Document */
+/*Main*/
+body {
+	background: url(../Images/Backgroundpaint-mixed.png) ;
+	font-family: "Times New Roman", Times, serif;
+	margin: 0;
+}
+
+#page {
+	width: 960px;
+	margin: 0 auto;
+}
+img {
+	border: 0;
+}
+
+#header {
+	margin-bottom: 20px;
+	padding-top: 20px;
+}
+
+#logo {
+	float: left;
+	margin-bottom: 10px;
+	margin-left: 50px;
+}
+#header {
+	margin-bottom: 20px;
+	padding-top: 20px;
+
+}
+/**Main**/
+
+
+/** Navigation **/
+#navigation {
+	background: #FC6 ;
+	clear: both;
+	height: 50px;
+	width: 860px;
+	margin: 0 auto;
+	padding: 1px;
+
+}
+
+#navigation ul {
+	display: inline-block;
+	width: 860px;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#navigation li {
+	float: left;
+	background-position: 0 -118px;
+	background-repeat: no-repeat;
+	height: 49px;
+	width: 160px;
+	margin: 0;
+	padding-left: 1px;
+	text-align: center;
+}
+
+#navigation li a {
+	color: #fff;
+	display: block;
+	font: bold 14px/48px Arial, Helvetica, sans-serif;
+	height: 49px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#navigation li a:hover {
+	background-position: 0 -59px;
+	color: #C06 ;
+}
+#navigation li.selected a {
+	background-position: 0 0;
+	color: #000;
+	;
+}
+
+
+#navigation ul ul {
+	display: none;
+}
+
+#navigation ul li:hover > ul {
+		display: block;
+	}
+#navigation ul ul li {
+		float: none; 
+		border-top: 1px solid #F63;
+		border-bottom: 1px solid #F63;
+		position: relative;
+		background-color:#FC6;
+		width:190px;
+}
+/**Navigation**/
+/**Content**/
+#contents {
+	display: inline-block;
+	width: 865px;
+	padding: 0 47px;
+}
+
+#contents h1 {
+	color: #FC6 ;
+	font: 26px/30px "Times New Roman", Times, serif;
+	margin: 18px 0 20px;
+	padding-left: 2px;
+	text-transform: uppercase;
+}
+#contents h2 {
+	background-color:#FFF;
+	font-size:14px;
+}
+#contents h3 {
+	color: #C00 ;
+	font: 20px/25px "Times New Roman", Times, serif;
+	margin: 18px 0 20px;
+	padding-left: 2px;
+	text-transform: uppercase;
+}
+/**Footer**/
+#footer {
+	color: #594334;
+	font-size: 14px;
+	line-height: 48px;
+	margin: -38px 0 20px;
+	padding-top: 42px;
+	text-transform: uppercase;
+}
+#footer > div {
+	background-color: #ac9e94;
+	height: 48px;
+	width: 110px;
+	border-bottom: 1px solid #72675f;
+	border-top: 1px solid #cdbeb2;
+	margin: 0 auto;
+	padding: 0 20px;
+	text-align: right;
+}
+#footer ul.navigation {
+	float: left;
+	display: inline-block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#footer p {
+	margin: 0;
+	text-align: center;
+	text-transform: none;
+}
+/**Footer**/
+/*Cossie Play About*/
+#plays li {
+	padding-bottom: 0;
+	
+}
+#plays li img {
+	float: right;
+	border: 1px solid #2c9688;
+	margin-left: 15px;
+}
